@@ -10,7 +10,7 @@ export default function Mymap() {
       plugins: [],
     })
       .then((AMap) => {
-        let amap = new AMap.Map('mapContainer', {
+        let amap = new AMap.Map('map-container', {
           zoom: 15,
           center: [116.4074, 39.9042],
         });
